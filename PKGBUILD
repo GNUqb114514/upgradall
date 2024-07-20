@@ -8,7 +8,7 @@ license=('LGPL-2.1-or-later')
 source=("./upgradeall.sh")
 md5sums=("SKIP")
 arch=(any)
-depends=('paru' 'flatpak')
+optdepends=('paru' 'flatpak')
 
 package () {
 	mkdir -p $pkgdir/usr/bin
