@@ -1,3 +1,4 @@
+# Maintainer: QB <GNUqb114514@outlook.com>
 pkgname='upgradeall'
 pkgdesc='A script for auto-upgrading all softwares.'
 pkgver='0.1.0'
