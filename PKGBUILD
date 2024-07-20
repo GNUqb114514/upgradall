@@ -8,7 +8,7 @@ license=('LGPL-2.1-or-later')
 source=("./upgradeall.sh")
 md5sums=("SKIP")
 arch=(any)
-optdepends=('paru' 'flatpak')
+optdepends=('paru' 'flatpak' 'vim-plug')
 
 package () {
 	mkdir -p $pkgdir/usr/bin
